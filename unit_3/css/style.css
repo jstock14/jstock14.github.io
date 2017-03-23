@@ -1,13 +1,13 @@
 body {
 	color: #303030;
-	background-color: #ffffff;
+	background-color: white;
 	font-size: 18px;
 	font-weight: 100;
 }
 
 h1 {
 	color: #303030;
-	font-family: "Oswald", sans-serif;
+	font-family: "gotham", sans-serif;
 	font-size: 48px;
 	font-weight: 300;
 	text-align: center;
@@ -15,7 +15,7 @@ h1 {
 }
 
 h2 {
-	font-family: "Oswald", sans-serif;
+	font-family: "gotham", sans-serif;
 	font-size: 30px;
 	font-weight: 200;
 	text-align: center;

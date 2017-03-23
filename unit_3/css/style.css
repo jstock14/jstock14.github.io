@@ -1,6 +1,7 @@
 body {
 	color: #303030;
 	background-color: white;
+	font-family: "gotham", sans-serif;
 	font-size: 18px;
 	font-weight: 100;
 }
@@ -33,5 +34,4 @@ h2 {
 .leadphotos {
 	display: block;
 	margin: auto;
-	width: 60%;
 }

@@ -4,25 +4,23 @@ body {
 	color: #303030;
 	background-color: ghostwhite;
 	font-family: "Raleway", sans-serif;
-	font-size: 1.1em;
-	margin: 70px;
+	font-size: .95em;
+	margin: 10px;
 	line-height: 1.25em;
-	text-align: center;
+	text-align: left;
 }
 
 #logo {
 	display: block;
-	text-align: left;
-	margin-left: auto;
-	margin-right: auto;
-	max-width: 500px;
-	max-height: 500px;
-	padding-bottom: 3em;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0px 0px 0px 10px;
+    height: 110px;
 }
 
 header {
 	background-color: ghostwhite;
-	padding: 20px;
+	padding: 2px;
 }
 
 #main_nav {
@@ -31,6 +29,7 @@ header {
     padding: 0;
     overflow: hidden;
     background-color: #7C92FF;
+	text-align: center;
 }
 
 .main_nav1 {
@@ -53,18 +52,23 @@ header {
 h1 {
 	color: #303030;
 	font-family: 'Great Vibes', cursive;
-	font-size: 40px;
+	font-size: 50px;
 	font-weight: 200;
 	text-align: center;
 }
 
-h2 {
+h3 {
 	color: #303030;
+	font-size: 18px;
 	font-family: 'Raleway', sans-serif;
+	text-align: center;
 }
 
 .blurb {
 	padding-top: 0;
+	width: 500px;
+    float: left;
+    margin-left: 4em;
 }
 
 a {
@@ -77,17 +81,31 @@ ul {
 	
 }
 
+
+footer {
+	text-align: center;
+	font-size: 0.7em;
+    margin: 5px;
+    clear: both;
+
+}
+
+#slideshow {
+	padding: 10px 300px 0 0;
+	max-width: 100px;
+	max-height: 100px;
+    float: right;
+    margin: 3em;
+}
+
 #sally {
 	display: block;
 	text-align: left;
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 500px;
-	max-height: 500px;
+	max-width: 400px;
+	max-height: 400px;
 	padding: 1em 0 1em 0;
 }
 
-footer {
-	text-align: center;
-	font-size: 0.7em;
-}
+

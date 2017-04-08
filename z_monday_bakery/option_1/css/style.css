@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Raleway');
+
+body {
+	color: #303030;
+	background-color: ghostwhite;
+	font-family: "Raleway", sans-serif;
+	font-size: 1.1em;
+	margin: 70px;
+	line-height: 1.25em;
+	text-align: center;
+}
+
+#logo {
+	display: block;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 500px;
+	max-height: 500px;
+	padding-bottom: 3em;
+}
+
+header {
+	background-color: ghostwhite;
+	padding: 20px;
+}
+
+#main_nav {
+	list-style-type: none;
+    margin: 1em;
+    padding: 0;
+    overflow: hidden;
+    background-color: #7C92FF;
+}
+
+.main_nav1 {
+    display: inline-block;
+}
+
+.main_nav_link  {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.main_nav_link:hover {
+    background-color: #B8FFD5;
+}
+
+h1 {
+	color: #303030;
+	font-family: 'Great Vibes', cursive;
+	font-size: 40px;
+	font-weight: 200;
+	text-align: center;
+}
+
+h2 {
+	color: #303030;
+	font-family: 'Raleway', sans-serif;
+}
+
+.blurb {
+	padding-top: 0;
+}
+
+a {
+	color: #556CE8;
+}
+
+ul {
+	list-style-type: none;
+	display: block;
+	
+}
+
+#sally {
+	display: block;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 500px;
+	max-height: 500px;
+	padding: 1em 0 1em 0;
+}
+
+footer {
+	text-align: center;
+	font-size: 0.7em;
+}

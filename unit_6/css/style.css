@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab|Sacramento');
+
+body {
+	color: #303030;
+	background-color: #EEE9DE;
+	font-family: "Josefin Slab", serif;
+	font-size: 1.2em;
+	margin: 50px;
+	line-height: 1.25em;
+	text-align: left;
+}
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+aside {
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+article {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+footer{
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+h1 {
+	color: #303030;
+	font-family: 'Sacramento', cursive;
+	font-size: 80px;
+	font-weight: 200;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Sacramento', cursive;
+	font-size: 50px;
+	font-weight: 200;
+	text-align: center;
+	color: #FF2391
+}
+
+h3 {
+	font-family: 'Sacramento', cursive;
+	font-size: 1.35em;
+	text-align: center;
+	color: #FF2391;
+}
+
+ul {
+	text-align: center;
+	list-style-type: none;
+}
+
+.leadphotos {
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 500px
+}
+
+#contact {
+	text-align: center;
+}
+
+#slogan {
+	font-family: "Josefin Slab", serif;
+	font-size: 30px;
+	color: #FF2391;
+	text-align: center;
+}
+
+#logo {
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 300px
+}
+
+#two_column {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#aside {
+	background-color: violet;
+	border: 1px black: solid;
+	padding: 20px;
+	float: left;
+	width: 30%;
+}
+
+#blurb {
+	background-color: pink;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 62%;
+}
+
+.clearfix:after {
+	visability: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}

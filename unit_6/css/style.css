@@ -101,7 +101,7 @@ ul {
 	padding: 20px;
 }
 
-#aside {
+.aside {
 	background-color: violet;
 	border: 1px black: solid;
 	padding: 20px;
@@ -109,7 +109,7 @@ ul {
 	width: 30%;
 }
 
-#blurb {
+.blurb {
 	background-color: pink;
 	border: 1px black solid;
 	padding: 20px;

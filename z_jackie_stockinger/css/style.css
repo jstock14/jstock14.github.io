@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto');
+
+h1, h3 {
+	display: block;
+}
+
+h1 {
+	font-family: "Roboto", sans-serif;
+	font-size: 28px;
+	color: #777777;
+}
+
+h3 {
+	font-family: "Raleway", sans-serif;
+	font-size: 20px;
+	color: #35aaff;
+}
+
+img {
+	width: auto;
+	display: block;
+}
+
+div {
+	display: inline-block;
+}
+
+#hero {
+	width: 100%;
+	display: block;
+	margin: 0;
+	background: #000000;
+}

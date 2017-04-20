@@ -11,28 +11,27 @@ body {
 }
 
 header {
-	background-color: #FFED74;
+	background-color: #ffffff;
 	border: 1px black solid;
 	padding: 20px;
 }
 
 nav {
-	background-color: #E8C66A;
-	border: 1px black solid;
-	padding: 20px;
+	background-color: #bde4f7;
+	padding: 10px;
+	text-align: center;
 }
 
 aside {
-	background-color: #FFC675;
-	border: 1px black solid;
-	padding: 20px;
+	background-color: #ffffff;
+	padding: 0;
 }
 
 article {
-	background-color: #E89C6C;
+	background-color: #ffffff;
 	border: 1px black solid;
 	padding: 20px;
-	width: 600px;
+	width: 70%;
 }
 
 footer{
@@ -42,7 +41,7 @@ footer{
 }
 * + p { margin-top:1em; }
 h1 {
-	color: #303030;
+	color: #000000;
 	font-family: 'Sacramento', cursive;
 	font-size: 80px;
 	font-weight: 200;
@@ -96,28 +95,52 @@ ul {
 }
 
 #two_column {
-	background-color: #FFB7CF;
+	background-color: #ffffff;
 	border: 1px black solid;
 	padding: 20px;
 }
 
 .aside {
-	background-color: violet;
+	background-color: #ffffff;
 	border: 1px black: solid;
-	padding: 20px;
+	padding: 0;
 	float: left;
 	width: 30%;
 }
 
 .blurb {
-	background-color: pink;
+	background-color: #ffffff;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 40%;
+}
+
+#one {
+		background-color: #ffffff;
 	border: 1px black solid;
 	padding: 20px;
 	float: right;
-	width: 62%;
+	width: 60%;
 }
 
-.clearfix:after {
+#two {	
+	background-color: #ffffff;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 60%;
+}
+
+#three {
+	background-color: #ffffff;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 60%;
+}
+
+.clearfix: after {
 	visibility: hidden;
 	display: block;
 	font-size: 0;

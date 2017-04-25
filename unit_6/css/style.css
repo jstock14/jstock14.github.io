@@ -1,18 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Slab|Sacramento');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:400,700|Sacramento');
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
 	color: #303030;
-	background-color: #EEE9DE;
+	background-color: #ffffff;
 	font-family: "Josefin Slab", serif;
 	/* margin: 50px; */
 	font-size: 18px;
 	line-height: 1.5;
-	text-align: left;
 }
 
 header {
 	background-color: #ffffff;
-	border: 1px black solid;
 	padding: 20px;
 }
 
@@ -20,24 +18,31 @@ nav {
 	background-color: #bde4f7;
 	padding: 10px;
 	text-align: center;
+	border: 1px black solid;
 }
 
-aside {
-	background-color: #ffffff;
-	padding: 0;
+nav a {
+	font-family: "Josefin Slab", serif;
+	font-size: 18px;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	padding: 60px;
 }
 
 article {
 	background-color: #ffffff;
-	border: 1px black solid;
 	padding: 20px;
 	width: 70%;
+	float: left;
+	display: inline-block;
 }
 
 footer{
-	background-color: #FF957E;
-	border: 1px black solid;
-	padding: 20px;
+	background-color: #ffffff;
+	display: block;
+	float: left;
+	width: 100%;
 }
 * + p { margin-top:1em; }
 h1 {
@@ -63,9 +68,25 @@ h3 {
 	color: #FF2391;
 }
 
+h2 a {
+	font-family: 'Sacramento', cursive;
+	font-size: 50px;
+	font-weight: 200;
+	text-align: center;
+	color: #FF2391
+}
+
 ul {
 	text-align: center;
 	list-style-type: none;
+}
+
+a {font-family: "Josefin Slab", serif;
+	font-size: 20px;
+	font-weight: normal;
+	text-align: center;
+	color: #FF2391;
+	text-decoration: none;
 }
 
 .leadphotos {
@@ -74,9 +95,6 @@ ul {
 	margin-right: auto;
 	margin-top: .5em;
 	max-width: 500px;
-}
-
-#contact {
 }
 
 #slogan {
@@ -94,50 +112,54 @@ ul {
 	max-width: 300px
 }
 
-#two_column {
+#aside {
 	background-color: #ffffff;
-	border: 1px black solid;
-	padding: 20px;
-}
-
-.aside {
-	background-color: #ffffff;
-	border: 1px black: solid;
-	padding: 0;
-	float: left;
+	display: block;
 	width: 30%;
+	float: right;
 }
 
 .blurb {
 	background-color: #ffffff;
-	border: 1px black solid;
-	padding: 20px;
+	text-align: center;
+	width: 60%;
 	float: left;
-	width: 40%;
 }
 
 #one {
-		background-color: #ffffff;
-	border: 1px black solid;
+	background-color: #ffffff;
 	padding: 20px;
-	float: right;
+	float: left;
+	text-align: center;
 	width: 60%;
+	border-bottom: 1px black;
 }
 
 #two {	
 	background-color: #ffffff;
-	border: 1px black solid;
 	padding: 20px;
-	float: right;
-	width: 60%;
+	float: left;
+	text-align: center;
+	width: 60%
+	border-bottom: 1px black;
 }
 
 #three {
 	background-color: #ffffff;
-	border: 1px black solid;
 	padding: 20px;
-	float: right;
-	width: 60%;
+	float: left;
+	text-align: center;
+	width: 60%
+	border-bottom: 1px black;
+}
+
+#four {
+	background-color: #ffffff;
+	padding: 20px;
+	float: left;
+	text-align: center;
+	width: 60%
+	border-bottom: 1px black;
 }
 
 .clearfix: after {

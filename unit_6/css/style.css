@@ -5,7 +5,7 @@ body {
 	background-color: #ffffff;
 	font-family: "Josefin Slab", serif;
 	/* margin: 50px; */
-	font-size: 18px;
+	font-size: 2.2em;
 	line-height: 1.5;
 }
 
@@ -23,19 +23,11 @@ nav {
 
 nav a {
 	font-family: "Josefin Slab", serif;
-	font-size: 18px;
+	font-size: .9em;
 	text-decoration: none;
 	color: black;
 	font-weight: bold;
 	padding: 60px;
-}
-
-article {
-	background-color: #ffffff;
-	padding: 20px;
-	width: 70%;
-	float: left;
-	display: inline-block;
 }
 
 footer{
@@ -48,27 +40,35 @@ footer{
 h1 {
 	color: #000000;
 	font-family: 'Sacramento', cursive;
-	font-size: 80px;
+	font-size: 100px;
 	font-weight: 200;
 	text-align: center;
 }
 
 h2 {
+	color: #FF2391;
+	font-family: "Josefin Slab", serif;
+	font-size: 1.5em;
+	font-weight: normal;
+	text-align: center;
+}
+
+h3 a {
 	font-family: 'Sacramento', cursive;
-	font-size: 50px;
+	font-size: 75px;
 	font-weight: 200;
 	text-align: center;
 	color: #FF2391
 }
 
-h3 {
+h5 {
 	font-family: 'Sacramento', cursive;
-	font-size: 1.35em;
+	font-size: 1.25em;
 	text-align: center;
 	color: #FF2391;
 }
 
-h2 a {
+h4 a {
 	font-family: 'Sacramento', cursive;
 	font-size: 50px;
 	font-weight: 200;
@@ -82,7 +82,7 @@ ul {
 }
 
 a {font-family: "Josefin Slab", serif;
-	font-size: 20px;
+	font-size: 1em;
 	font-weight: normal;
 	text-align: center;
 	color: #FF2391;
@@ -95,13 +95,6 @@ a {font-family: "Josefin Slab", serif;
 	margin-right: auto;
 	margin-top: .5em;
 	max-width: 500px;
-}
-
-#slogan {
-	font-family: "Josefin Slab", serif;
-	font-size: 30px;
-	color: #FF2391;
-	text-align: center;
 }
 
 #logo {
@@ -125,41 +118,18 @@ a {font-family: "Josefin Slab", serif;
 	width: 60%;
 	float: left;
 }
-
-#one {
-	background-color: #ffffff;
-	padding: 20px;
-	float: left;
-	text-align: center;
-	width: 60%;
-	border-bottom: 1px black;
+#two_column {
+	float:left;
+	width:60%;
+	padding: 1em;
+}
+#two_column article {
+	margin-top: 2em;
+	margin-left: 2em;
 }
 
-#two {	
-	background-color: #ffffff;
-	padding: 20px;
-	float: left;
+#two_column h3 {
 	text-align: center;
-	width: 60%
-	border-bottom: 1px black;
-}
-
-#three {
-	background-color: #ffffff;
-	padding: 20px;
-	float: left;
-	text-align: center;
-	width: 60%
-	border-bottom: 1px black;
-}
-
-#four {
-	background-color: #ffffff;
-	padding: 20px;
-	float: left;
-	text-align: center;
-	width: 60%
-	border-bottom: 1px black;
 }
 
 .clearfix: after {
@@ -169,4 +139,27 @@ a {font-family: "Josefin Slab", serif;
 	content: " ";
 	clear: both;
 	height: 0;
+}
+.sidebar {
+    width: 40%;
+    float: left;
+    padding: 2em;
+}
+
+.aside img {
+    width: 40%;
+    float: left;
+    padding-right: .5em;
+}
+
+.aside div {
+    width: 60%;
+    float: left;
+    font-size: 1em;
+}
+
+.wrapper {
+    max-width: 1400px;
+    margin: auto;
+    width: 100%;
 }

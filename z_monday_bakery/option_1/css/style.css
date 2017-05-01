@@ -2,27 +2,72 @@
 @import url("../../jstock14.github.io/z_monday_bakery/option_1/css/style.css");
 
 body {
-	color: #303030;
 	background-color: ghostwhite;
+}
+
+article {
+	color: #303030;
 	font-family: "Raleway", sans-serif;
-	font-size: .95em;
-	margin: 10px;
-	line-height: 1.25em;
+	font-size: 1.2em;
+	line-height: 1.3em;
 	text-align: left;
+	display: block;
+	width: 80%;
+    padding: 1% 9% 0 9%;
+}
+
+h1 {
+	color: #303030;
+	font-family: 'Great Vibes', cursive;
+	font-size: 3.5em;
+	font-weight: 200;
+	text-align: center;
+}
+
+h3 {
+	color: #303030;
+	font-size: 1.5em;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+}
+
+a {
+	color: #556CE8;
+	font-family: 'Raleway', sans-serif;
+}
+
+ul {
+	list-style-type: none;
+	display: block;
+}
+
+
+footer {
+	text-align: center;
+	font-size: 1em;
+    margin: 5px;
+    clear: both;
+}
+
+#header {
+	width: 100%;
+}
+
+#welcome {
+	width: 70%;
+	float: right;
 }
 
 #logo {
-	display: block;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: 0px 0px 0px 10px;
-    height: 110px;
+	width: 30%;
+	float: left;
 }
 
-header {
-	background-color: ghostwhite;
-	padding: 2px;
+#photo {
+	padding-left: 10%;
+	width: 90%;
 }
+
 
 #main_nav {
 	list-style-type: none;
@@ -31,18 +76,20 @@ header {
     overflow: hidden;
     background-color: #7C92FF;
 	text-align: center;
+	width: 100%;
 }
 
 .main_nav1 {
     display: inline-block;
 }
 
-.main_nav_link  {
+.main_nav_link, .main_nav_link a  {
     display: block;
     color: white;
     text-align: center;
     padding: 10px 20px;
     text-decoration: none;
+    font-size: 1.2em;
 }
 
 /* Change the link color to #111 (black) on hover */
@@ -50,63 +97,15 @@ header {
     background-color: #B8FFD5;
 }
 
-h1 {
-	color: #303030;
-	font-family: 'Great Vibes', cursive;
-	font-size: 50px;
-	font-weight: 200;
-	text-align: center;
-}
 
-h3 {
-	color: #303030;
-	font-size: 18px;
-	font-family: 'Raleway', sans-serif;
-	text-align: center;
-}
-
-.blurb {
-	padding-top: 0;
-	width: 500px;
-    float: left;
-    margin-left: 4em;
-}
-
-a {
-	color: #556CE8;
-}
-
-ul {
-	list-style-type: none;
-	display: block;
-	
-}
-
-
-footer {
-	text-align: center;
-	font-size: 0.7em;
-    margin: 5px;
-    clear: both;
-
+.wrapper {
+	max-width: 1400px;
+	width: 100%;
 }
 
 #slideshow {
-	padding: 10px 300px 0 0;
-	max-width: 100px;
-	max-height: 100px;
-    float: right;
-    margin: 3em;
-}
-
-#sally {
 	display: block;
-	text-align: left;
-	margin-left: auto;
-	margin-right: auto;
-	max-width: 400px;
-	max-height: 400px;
-	padding: 1em 0 1em 0;
+	width: 60%;
+	margin: 5% 5% 0 25%;
 }
-
 
